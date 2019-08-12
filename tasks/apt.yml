@@ -1,0 +1,15 @@
+---
+- name: add apt gpg key
+  become: yes
+  become_user: root
+  apt_key:
+    url: '{{ envoy_apt_key }}'
+    state: present
+- name: add apt repo
+  become: yes
+  become_user: root
+  apt_repository:
+    filename: getenvoy
+    repo: '{{ envoy_apt_repo }}'
+    state: present
+

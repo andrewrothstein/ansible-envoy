@@ -1,0 +1,10 @@
+---
+- name: add yum repo
+  become: yes
+  become_user: root
+  yum_repository:
+    name: getenvoy
+    description: GetEnvoy YUM Repository
+    baseurl: '{{ envoy_yum_baseurl }}'
+    gpgkey: https://getenvoy.io/gpg
+    gpgcheck: yes

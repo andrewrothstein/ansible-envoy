@@ -1,0 +1,3 @@
+---
+envoy_pkg_mgr: yum
+envoy_yum_baseurl: https://tetrate.bintray.com/getenvoy-rpm/rhel/$releasever/$basearch/stable/

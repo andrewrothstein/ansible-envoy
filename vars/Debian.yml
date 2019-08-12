@@ -1,0 +1,4 @@
+---
+envoy_pkg_mgr: apt
+envoy_apt_key: https://getenvoy.io/gpg
+envoy_apt_repo: 'deb [arch=amd64] https://dl.bintray.com/tetrate/getenvoy-deb {{ ansible_distribution_release }} stable'

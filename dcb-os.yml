@@ -1,0 +1,6 @@
+- centos_7
+- debian_buster
+- debian_jessie
+- debian_stretch
+- ubuntu_xenial
+- ubuntu_bionic
