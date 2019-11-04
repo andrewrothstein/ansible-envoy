@@ -2,5 +2,6 @@
 - debian_buster
 - debian_jessie
 - debian_stretch
-- ubuntu_xenial
+- ubi8_8.0
 - ubuntu_bionic
+- ubuntu_xenial

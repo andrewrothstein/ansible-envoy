@@ -11,6 +11,7 @@ env:
 - OS=debian_buster
 - OS=debian_jessie
 - OS=debian_stretch
+- OS=ubi8_8.0
 - OS=ubuntu_bionic
 - OS=ubuntu_xenial
 language: python
